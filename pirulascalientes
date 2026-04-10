@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIRULAS CALIENTES | Subidón de Risa</title>
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #fff;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            border-bottom: 3px dashed #ff00ff;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #00ff00;
+            text-shadow: 2px 2px #ff00ff;
+            margin-bottom: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .producto {
+            border: 2px solid #ff00ff;
+            padding: 15px;
+            width: 250px;
+            background: #1a1a1a;
+            border-radius: 15px;
+            transition: transform 0.2s;
+        }
+        .producto:hover {
+            transform: rotate(3deg) scale(1.05);
+            border-color: #00ff00;
+        }
+        .icono {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+        .precio {
+            font-weight: bold;
+            color: #00ff00;
+            font-size: 1.5rem;
+        }
+        button {
+            background: #ff00ff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        button:hover {
+            background: #00ff00;
+            color: black;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+        .disclaimer {
+            background: #330000;
+            color: #ff5555;
+            padding: 10px;
+            margin-top: 20px;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>💊 PIRULAS CALIENTES 💊</h1>
+        <p><i>"Si no te ríes, es que no tienes sangre en las venas"</i></p>
+    </header>
+
+    <div class="container">
+        <!-- Producto 1 -->
+        <div class="producto">
+            <div class="icono">🍭</div>
+            <h3>La Piru-Chiste</h3>
+            <p>Efectos secundarios: No parar de contar chistes de cuñados durante 4 horas.</p>
+            <p class="precio">9.99€</p>
+            <button onclick="alert('¡Marchando una de risas!')">Añadir al carrito</button>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="producto">
+            <div class="icono">🌈</div>
+            <h3>Multicolor Turbo</h3>
+            <p>Verás el mundo en 4K y con filtros de gatitos. Ideal para lunes por la mañana.</p>
+            <p class="precio">14.50€</p>
+            <button onclick="alert('Cuidado, que esta pega fuerte')">Añadir al carrito</button>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="producto">
+            <div class="icono">⚡</div>
+            <h3>Piru-Rayos</h3>
+            <p>Te da la energía de 15 cafés pero sin los temblores. ¡A comerse el mundo!</p>
+            <p class="precio">19.99€</p>
+            <button onclick="alert('¡A tope de power!')">Añadir al carrito</button>
+        </div>
+    </div>
+
+    <div class="disclaimer">
+        ⚠️ <b>AVISO IMPORTANTE:</b> Esto es una web de broma. Nuestras "pirulas" son en realidad caramelos de menta o aire comprimido. No ingerir nada extraño que encuentres por ahí.
+    </div>
+
+    <footer>
+        &copy; 2024 PIRULAS CALIENTES S.L. - Directo de la fábrica a tu mandíbula (con humor).
+    </footer>
+
+</body>
+</html>
